@@ -50,5 +50,37 @@ img {
     color: #fff;
     padding: 0.45rem;
     margin: 0 0.25rem;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
+}
+
+// landing page styles
+.landing {
+  position: relative;
+  background: url("../img/ted-bryan-yu-5mezpWin6T8-unsplash.jpg") no-repeat
+    center center/cover;
+  height: 100vh;
+
+  &-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+// credit box styles
+.credit-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
 }
