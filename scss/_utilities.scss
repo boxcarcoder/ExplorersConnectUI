@@ -1,4 +1,4 @@
-// Backgrounds
+// Background styles
 .bg {
   &-primary {
     @include set-background($primary-color);
@@ -29,4 +29,35 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+// text styles
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+// button styles
+.btn {
+  display: inline-block;
+  background: $light-color;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
 }
