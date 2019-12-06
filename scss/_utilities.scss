@@ -60,4 +60,35 @@
   font-size: 1rem;
   margin-right: 0.5rem;
   outline: none;
+  transition: all 0.2s ease-in;
+
+  &.btn-primary {
+    @include set-background($primary-color);
+    &:hover {
+      background: lighten($primary-color, 8%);
+    }
+  }
+  &.btn-dark {
+    @include set-background($dark-color);
+    &:hover {
+      background: lighten($dark-color, 8%);
+    }
+  }
+  &.btn-success {
+    @include set-background($success-color);
+    &:hover {
+      background: lighten($success-color, 8%);
+    }
+  }
+  &.btn-danger {
+    @include set-background($danger-color);
+    &:hover {
+      background: lighten($danger-color, 8%);
+    }
+  }
+
+  &:hover {
+    background: lighten($dark-color, 25%);
+    color: white;
+  }
 }
