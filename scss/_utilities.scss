@@ -63,6 +63,11 @@
   color: $primary-color;
 }
 
+// image styles
+.round-img {
+  border-radius: 30%;
+}
+
 // button styles
 .btn {
   display: inline-block;
@@ -104,5 +109,27 @@
   &:hover {
     background: lighten($dark-color, 25%);
     color: white;
+  }
+}
+
+// alert styles
+.alert {
+  padding: 0.3rem;
+  margin: 1rem 0rem;
+  opacity: 0.9;
+  background: $light-color;
+  color: #333;
+
+  &.alert-primary {
+    @include set-background($primary-color);
+  }
+  &.alert-dark {
+    @include set-background($dark-color);
+  }
+  &.alert-success {
+    @include set-background($success-color);
+  }
+  &.alert-danger {
+    @include set-background($danger-color);
   }
 }
