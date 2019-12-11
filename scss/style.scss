@@ -81,10 +81,17 @@ img {
 
 // credit box styles
 .credit-box {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: 0.6;
+  &-abs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+
+  &-rel {
+    //position: relative;
+    opacity: 0.6;
+  }
 }
 
 //profiles page styles
@@ -106,6 +113,24 @@ img {
 
   .profile-top {
     grid-area: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    img {
+      width: 250px;
+    }
+
+    .icons a {
+      color: $light-color;
+      margin: 0 0.2rem;
+
+      &:hover {
+        color: $dark-color;
+      }
+    }
   }
   .profile-about {
     grid-area: about;

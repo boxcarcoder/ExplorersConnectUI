@@ -93,25 +93,25 @@
   &.btn-primary {
     @include set-background($primary-color);
     &:hover {
-      background: lighten($primary-color, 8%);
+      background: lighten($primary-color, 15%);
     }
   }
   &.btn-dark {
     @include set-background($dark-color);
     &:hover {
-      background: lighten($dark-color, 8%);
+      background: lighten($dark-color, 15%);
     }
   }
   &.btn-success {
     @include set-background($success-color);
     &:hover {
-      background: lighten($success-color, 8%);
+      background: lighten($success-color, 15%);
     }
   }
   &.btn-danger {
     @include set-background($danger-color);
     &:hover {
-      background: lighten($danger-color, 8%);
+      background: lighten($danger-color, 15%);
     }
   }
 
