@@ -101,19 +101,19 @@ img {
 //profile page styles
 .profile-grid {
   display: grid;
-  grid-template-areas: "top top" "about about" "passions edu" "github github";
+  grid-template-areas: "top top" "about about" "location gear";
   grid-gap: 1rem;
 
-  &.profile-top {
+  .profile-top {
     grid-area: top;
   }
-  &.profile-about {
+  .profile-about {
     grid-area: about;
   }
-  &.profile-top {
-    grid-area: top;
+  .profile-location {
+    grid-area: location;
   }
-  &.profile-top {
-    grid-area: top;
+  .profile-gear {
+    grid-area: gear;
   }
 }
