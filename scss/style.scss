@@ -97,3 +97,23 @@ img {
   line-height: 1.8;
   margin-bottom: 1rem;
 }
+
+//profile page styles
+.profile-grid {
+  display: grid;
+  grid-template-areas: "top top" "about about" "passions edu" "github github";
+  grid-gap: 1rem;
+
+  &.profile-top {
+    grid-area: top;
+  }
+  &.profile-about {
+    grid-area: about;
+  }
+  &.profile-top {
+    grid-area: top;
+  }
+  &.profile-top {
+    grid-area: top;
+  }
+}
