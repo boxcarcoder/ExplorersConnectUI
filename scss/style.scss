@@ -134,11 +134,14 @@ img {
   }
   .profile-about {
     grid-area: about;
+    text-align: center;
   }
   .profile-location {
     grid-area: location;
+    text-align: center;
   }
   .profile-gear {
     grid-area: gear;
+    text-align: center;
   }
 }
