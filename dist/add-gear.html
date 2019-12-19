@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Baskervville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Meet Explorers Around the World!</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="dashboard.html">
+          <i class="fas fa-hiking"></i> ExplorersConnect
+        </a>
+      </h1>
+      <h5>
+        <ul>
+          <li>
+            <a href="profiles.html"><i class="fas fa-users"></i> Explorers</a>
+          </li>
+          <li>
+            <a href="dashboard.html"><i class="fas fa-user"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href="login.html"><i class="fa fa-sign-out-alt"></i> Logout</a>
+          </li>
+        </ul>
+      </h5>
+    </nav>
+    <section class="container">
+      <h1 class="large text-primary">
+        Add Gear
+      </h1>
+      <p class="lead">
+        <i class="fas fa-map-signs text-primary"></i> Add all your essential
+        gear for an adventure.
+      </p>
+      <small
+        >Please use comma separated values (eg. Big Agnes FlyCreek Tent,
+        AegisMax M2 Sleeping Bag)</small
+      >
+      <form class="form">
+        <div class="line"></div>
+        <div class="form-group">
+          <h5>Hiking</h5>
+          <input type="text" placeholder="Hiking Gear" name="hikingGear" />
+        </div>
+        <div class="form-group">
+          <h5>Camping</h5>
+          <input type="text" placeholder="Camping Gear" name="campingGear" />
+        </div>
+        <div class="form-group">
+          <h5>Water Sports</h5>
+          <input type="text" placeholder="Water Gear" name="waterGear" />
+        </div>
+        <div class="form-group">
+          <h5>Snow Sports</h5>
+          <input type="text" placeholder="Snow Gear" name="snowGear" />
+        </div>
+        <div class="form-group">
+          <h5>Rock Climbing</h5>
+          <input
+            type="text"
+            placeholder="Rock Climbing Gear"
+            name="rockClimbingGear"
+          />
+        </div>
+
+        <small>* = required fields</small>
+
+        <div class="vert-m-1">
+          <input type="submit" class="btn btn-primary my-1" />
+          <a class="btn btn-light my-1" href="dashboard.html">Go Back</a>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
