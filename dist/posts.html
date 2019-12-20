@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Baskervville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Meet Explorers Around the World!</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="dashboard.html">
+          <i class="fas fa-hiking"></i> ExplorersConnect
+        </a>
+      </h1>
+      <h5>
+        <ul>
+          <li>
+            <a href="profiles.html"><i class="fas fa-users"></i> Explorers</a>
+          </li>
+          <li>
+            <a href="dashboard.html"><i class="fas fa-user"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href="login.html"><i class="fa fa-sign-out-alt"></i> Logout</a>
+          </li>
+        </ul>
+      </h5>
+    </nav>
+    <section class="container">
+      <h1 class="large text-primary">
+        Posts
+      </h1>
+      <p class="lead"><i class="fas fa-user"></i> Welcome to the community</p>
+
+      <div class="post-form">
+        <div class="bg-primary post-form-header ">
+          <h4>Start a Discussion</h4>
+        </div>
+        <form class="form vert-m-1">
+          <textarea cols="30" rows="5" placeholder="Create a post"></textarea>
+          <input type="submit" value="Submit" class="btn btn-dark vert-m-1" />
+        </form>
+        <div class="posts">
+          <div class="post bg-white vert-m-1 p-1">
+            <div>
+              <a href="profile.html">
+                <img
+                  class="round-img"
+                  src="img/luke-pamer-KBpnPk44tOA-unsplash.jpg"
+                  alt=""
+                />
+                <h4>John Doe</h4>
+              </a>
+            </div>
+
+            <div>
+              <p class="vert-m-1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ratione dolores officia assumenda dolor maiores sint pariatur
+                quia voluptatibus voluptate perspiciatis commodi possimus nemo
+                aut, voluptas expedita facilis amet hic culpa.
+              </p>
+              <button class="btn">
+                <i class="fas fa-thumbs-up"></i> <span>4</span>
+              </button>
+              <button class="btn">
+                <i class="fas fa-thumbs-down"></i>
+              </button>
+              <a href="post.html" class="btn btn-primary">
+                Discussion
+              </a>
+            </div>
+          </div>
+
+          <div class="post bg-white vert-m-1 p-1">
+            <div>
+              <a href="profile.html">
+                <img
+                  class="round-img"
+                  src="img/luke-pamer-KBpnPk44tOA-unsplash.jpg"
+                  alt=""
+                />
+                <h4>John Doe</h4>
+              </a>
+            </div>
+
+            <div>
+              <p class="vert-m-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                magni quos voluptatem perferendis veritatis facere.
+              </p>
+              <button class="btn">
+                <i class="fas fa-thumbs-up"></i> <span>5</span>
+              </button>
+              <button class="btn">
+                <i class="fas fa-thumbs-down"></i>
+              </button>
+              <a href="post.html" class="btn btn-primary">
+                Discussion
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
